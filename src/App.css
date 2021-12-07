@@ -59,3 +59,19 @@ background-color: linen;
   margin-bottom: 0px;
 }
 
+
+
+.loader {
+  border: 16px solid white; /* Light grey */
+  border-top: 16px solid grey; /* Blue */
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin: 100px auto;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
