@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+
+@font-face {
+  font-family: noto-serif-italic;
+  src: url(./fonts/NotoSerifDisplay/NotoSerifDisplay-Italic.ttf);
+}
+@font-face {
+  font-family: noto-serif-thin;
+  src: url(./fonts/NotoSerifDisplay/NotoSerifDisplay-Thin.ttf);
+}
+@font-face {
+  font-family: noto-serif-bold;
+  src: url(./fonts/NotoSerifDisplay/NotoSerifDisplay-Bold.ttf);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: Jost-reg;
+  src: url(./fonts/Jost/static/Jost-Regular.ttf);
+}
+@font-face {
+  font-family: Jost-thin;
+  src: url(./fonts/Jost/static/Jost-Thin.ttf);
+}
+@font-face {
+  font-family: Jost-light;
+  src: url(./fonts/Jost/static/Jost-Light.ttf);
+}
+.tile{
+  width: 300px;
+
+border: 2px solid grey;
+padding: 30px;
+margin: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.tile-image{
+width: 100%;
+height: 200px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.tile-wrapper {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+margin: 150px;
+margin-top: 50px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title {
+  font-family: Jost-light;
+  font-size: 50px;
+  margin: 150px;
+  margin-bottom: 0px;
 }
