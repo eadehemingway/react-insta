@@ -6,7 +6,7 @@ export function TileWrapper() {
 
     return (
       <div className="tile-wrapper">
-            {data.map(d=> <Tile src={d}/>)}
+            {data.map((d, i)=> <Tile key={i} src={d}/>)}
       </div>
     );
   }
