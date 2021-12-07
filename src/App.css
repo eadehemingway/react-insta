@@ -24,11 +24,17 @@
   font-family: Jost-light;
   src: url(./fonts/Jost/static/Jost-Light.ttf);
 }
+
+
+body {
+background-color: linen;
+}
 .tile{
   width: 300px;
-  border: 2px solid grey;
+
   padding: 30px;
   margin: 20px;
+  min-height: 320px;
 }
 
 .tile-image{
@@ -46,6 +52,10 @@
 .title {
   font-family: Jost-light;
   font-size: 50px;
+}
+
+.header-wrapper{
   margin: 150px;
   margin-bottom: 0px;
 }
+

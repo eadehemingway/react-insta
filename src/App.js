@@ -1,15 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import React from "react";
 import {TileWrapper} from './TileWrapper'
-import {Title} from './Title'
+import {Header} from './Header'
 
-function App() {
-  return (
-    <div className="App">
-      <Title/>
-      <TileWrapper/>
-    </div>
-  );
+export class App extends React.Component{
+  constructor(props) {
+    super(props);
+    this.state = {
+        total_likes: 0
+    };
+  }
+
+  updateTotalLikes = () => {
+      this.setState((prevState)=>{
+          return {total_likes: prevState.total_likes + 1}
+      })
+  }
+  render(){
+    return (
+      <div className="App">
+        <Header total_likes={this.state.total_likes}/>
+        <TileWrapper updateTotalLikes={this.updateTotalLikes}/>
+      </div>
+    );
+  }
 }
 
 export default App;
