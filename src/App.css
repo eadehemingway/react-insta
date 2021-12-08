@@ -55,15 +55,18 @@ background-color: linen;
 }
 
 .header-wrapper{
-  margin: 150px;
+  margin: 150px 170px;
   margin-bottom: 0px;
 }
 
-
+.header-wrapper h4{
+font-size: 30px;
+font-family: Jost-light;
+}
 
 .loader {
   border: 16px solid white; /* Light grey */
-  border-top: 16px solid grey; /* Blue */
+  border-top: 16px solid rgb(139, 135, 135); /* Blue */
   border-radius: 50%;
   width: 80px;
   height: 80px;

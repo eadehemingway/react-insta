@@ -2,7 +2,7 @@
 
 export function Loading() {
     return (
-    <div class="loader"/>
+    <div className="loader"/>
     );
   }
 
