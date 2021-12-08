@@ -1,11 +1,9 @@
 
 import React from "react";
 import {Tile} from './Tile'
-import {Loading} from './Loading'
 
 
 export class TileWrapper extends React.Component{
-
 
     render(){
     return (
