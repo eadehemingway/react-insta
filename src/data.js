@@ -10,6 +10,5 @@ export const data = ["https://www.tate.org.uk/art/images/work/T/T14/T14081_10.jp
 "https://www.vincentborrelli.com/pictures/112159_2.jpg?v=1453412151",
 "http://ifacontemporary.org/wp-content/uploads/2014/12/discourses-viii.png",
 "https://www.tate.org.uk/sites/default/files/styles/width-420/public/images/cy-twombly-apollo-and-the-artist.jpg",
-"https://lh3.googleusercontent.com/proxy/rlhbU69vsdPWS46DGFLkulGam_fK7XgYBjRW7U7sS-pgi6r-2_idMQnlkD_GiK_i99aNIxqRR3wUDTGj0aaxLUE8ON70A5p1E_cJf1H0kfv5TJAYkxYK6IO1pzg2"
 
 ]

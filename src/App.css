@@ -1,26 +1,5 @@
 
 @font-face {
-  font-family: noto-serif-italic;
-  src: url(./fonts/NotoSerifDisplay/NotoSerifDisplay-Italic.ttf);
-}
-@font-face {
-  font-family: noto-serif-thin;
-  src: url(./fonts/NotoSerifDisplay/NotoSerifDisplay-Thin.ttf);
-}
-@font-face {
-  font-family: noto-serif-bold;
-  src: url(./fonts/NotoSerifDisplay/NotoSerifDisplay-Bold.ttf);
-}
-
-@font-face {
-  font-family: Jost-reg;
-  src: url(./fonts/Jost/static/Jost-Regular.ttf);
-}
-@font-face {
-  font-family: Jost-thin;
-  src: url(./fonts/Jost/static/Jost-Thin.ttf);
-}
-@font-face {
   font-family: Jost-light;
   src: url(./fonts/Jost/static/Jost-Light.ttf);
 }

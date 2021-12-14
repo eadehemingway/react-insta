@@ -1,7 +1,7 @@
-import './App.css';
+import '../App.css';
 import React from "react";
-import {TileWrapper} from '../TileWrapper'
-import {Header} from '../Header'
+import {TileWrapper} from './TileWrapper'
+import {Header} from './Header'
 import {data} from '../data'
 import { Loading } from '../Loading';
 
@@ -29,7 +29,7 @@ export class App extends React.Component{
   render(){
   const {data, total_likes} = this.state
     return (
-      <div className="App">
+      <div>
         <Header total_likes={total_likes}/>
         {data ? <TileWrapper updateTotalLikes={this.updateTotalLikes} data={data}/> : <Loading/>}
       </div>

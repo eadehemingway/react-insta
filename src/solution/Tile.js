@@ -23,7 +23,7 @@ export class Tile extends React.Component{
             border: `10px solid rgb(${red}, 0, 0)`
         }
       return (
-        <div style={styleObj} className={`tile`}>
+        <div style={styleObj} className="tile">
             <img className="tile-image" alt="art" src={this.props.src}/>
             {!!this.state.likes && <p>likes: {likes}</p>}
             <button onClick={this.likePhoto}>Like</button>
